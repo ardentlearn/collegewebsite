@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    transition-delay: 0s;
+    background-image: url('images/libback.jpg');
+}
+
+.navbar {
+    
+    /* background: transparent!important; */
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    height: 10%;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #fff!important;
+    margin-right: 5px;
+    font-weight: bold;
+    font-family: Roboto, "Helvetica Neue",;
+}
+
+.nav-link:hover {
+    color: rgba(216, 216, 216)!important;
+}
+
+.mega-menu{
+    background-color: transparent;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+
+.dropdown-menu{
+    border: none;
+}
+
+.dropdown-item {
+    padding: 12px 40px 12px 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: lighter;
+    background-color: white;
+    transform-origin: center;
+    animation: rotate 1.5s ease 1;
+}
+@keyframes rotate{
+    0%{transform: perspective(600px) rotatey(90deg); transform-origin: center; opacity:0;}
+    100%{transform: perspective(600px) rotatey(0deg); transform-origin: center; opacity: 1;}
+}
+
+.dropdown-item-1{
+    animation-delay: 0s;
+}
+.dropdown-item-2{
+    animation-delay: 0.1s;
+}
+.dropdown-item-3{
+    animation-delay: 0.2s;
+}
+.dropdown-item-4{
+    animation-delay: 0.3s;
+}
+.dropdown-item-5{
+    animation-delay: 0.4s;
+}
+.dropdown-item-6{
+    animation-delay: 0.4s;
+}
+.dropdown-item-7{
+    animation-delay: 0.6s;
+}
+.dropdown-item-8{
+    animation-delay: 0.7s;
+}
+.dropdown-item-9{
+    animation-delay: 0.8s;
+}
+.dropdown-item-10{
+    animation-delay: 0.9s;
+}
+.dropdown-item-11{
+    animation-delay: 1.0s;
+}
+
+.dropdown-item:hover{
+    display: block;
+    background-color: #0652dd;
+    color:white;
+}
+
+.navbar-brand{
+    color: #fff!important;
+    display: block;
+    padding: auto;
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: 'Catamaran';
+}
+
+.display-3 {
+    font-family: 'Montserrat';
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+
+.modal-body a {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.modal-body i {
+    margin-right: 10px;
+}
+    .heading{
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+    .heading1{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
+    }
+    .display-4{
+        font-weight: bolder;
+        text-shadow: 0 0 3px #c89ee0, 0 0 5px #180233;
+        margin-left: 8rem;
+        margin-top: 2rem;
+        margin-right: 4rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: floralwhite;
+    }
+    .card-title2{
+        font-weight: bolder;
+        text-shadow: 0 0 3px #c89ee0, 0 0 5px #180233;
+        margin-left: 8rem;
+        margin-top: 5rem;
+        margin-right: 4rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(230, 226, 217);
+    }
+    .card-title3{
+        font-weight: bolder;
+        text-shadow: 0 0 3px #c89ee0, 0 0 5px #180233;
+        margin-left: 8rem;
+        margin-top: 5rem;
+        margin-right: 4rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: floralwhite;
+
+    }
+
+    
+    .card-img{
+        border-radius: 5%;
+        border-color: #140329;
+        height: 57rem;
+        width: 80rem;
+        color: #000;
+    
+    }
+    .card-title,.card-text{
+        color: #000;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-right: 4rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: left;
+    }
+    .card-text1{
+        color: #000;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-right: 10rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: center;
+    }
+    .card-img1{
+        border-radius: 5%;
+        border-color: #140329;
+        color: #000;
+        display: inline-block;
+        margin-left: 0rem;
+        height: auto;
+        width: auto;  
+    }
